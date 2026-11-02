@@ -1,0 +1,30 @@
+name: Defeito
+description: Comportamento diferente do especificado
+labels: ["tipo: defeito"]
+body:
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      value: |
+        1.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Resultado esperado
+      description: Citar o requisito ou o critério de aceite, quando houver.
+    validations:
+      required: true
+  - type: textarea
+    id: obtido
+    attributes:
+      label: Resultado obtido
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      placeholder: Demonstração, local ou CI; navegador e versão

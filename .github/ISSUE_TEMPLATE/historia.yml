@@ -1,0 +1,40 @@
+name: História de usuário
+description: Funcionalidade a implementar em uma sprint
+labels: ["tipo: história"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: História
+      placeholder: US-xx
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      value: Como [papel], quero [ação], para [benefício].
+    validations:
+      required: true
+  - type: input
+    id: requisitos
+    attributes:
+      label: Requisitos atendidos
+      placeholder: RF-xx, RNF-xx
+    validations:
+      required: true
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite
+      render: gherkin
+    validations:
+      required: true
+  - type: checkboxes
+    id: dor
+    attributes:
+      label: Definition of Ready
+      options:
+        - label: Critérios de aceite escritos e verificáveis
+        - label: Estimativa preenchida no Projects
+        - label: Dependências resolvidas
