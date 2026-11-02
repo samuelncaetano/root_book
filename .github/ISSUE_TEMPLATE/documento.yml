@@ -1,0 +1,34 @@
+name: Documento
+description: Criação ou alteração de um documento do projeto
+labels: ["tipo: documentação"]
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: O que o documento deve conter e por quê.
+    validations:
+      required: true
+  - type: input
+    id: artefato
+    attributes:
+      label: Artefato
+      placeholder: docs/01-concepcao/nome-do-documento.md
+    validations:
+      required: true
+  - type: textarea
+    id: atividades
+    attributes:
+      label: Atividades
+      value: |
+        1. [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite
+      value: |
+        - [ ]
+    validations:
+      required: true
