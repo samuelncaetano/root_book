@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "language": "en,pt,pt_BR",
+  "ignorePaths": [
+    "**/.git/**"
+  ],
+  "words": [
+    "concepcao",
+    "decisao",
+    "devlog",
+    "elicitacao",
+    "implantacao",
+    "operacao",
+    "SDLC"
+  ]
+}
