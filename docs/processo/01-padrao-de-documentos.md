@@ -4,10 +4,10 @@
 | --------- | -------------------- |
 | Projeto   | Root Book            |
 | Documento | Padrão de documentos |
-| Versão    | 0.2                  |
+| Versão    | 1.0                  |
 | Data      | 13/11/2026           |
 | Autor     | Samuel               |
-| Status    | Aguardando aprovação |
+| Status    | Aprovado             |
 
 ## Histórico de revisões
 
@@ -15,6 +15,7 @@
 | ------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
 | 0.1    | 03/11/2026 | Samuel | Versão inicial.                                                                                                    |
 | 0.2    | 13/11/2026 | Samuel | Revisão: inclusão do prefixo A-xx (ajuste proposto), usado no estudo de viabilidade, na tabela de identificadores. |
+| 1.0    | 13/11/2026 | Samuel | Aprovado no *gate* da Fase 1.                                                                                      |
 
 ---
 

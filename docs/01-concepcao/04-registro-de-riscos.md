@@ -1,13 +1,13 @@
 # Registro de Riscos
 
-| Campo     | Valor                |
-| --------- | -------------------- |
-| Projeto   | Root Book            |
-| Documento | Registro de Riscos   |
-| Versão    | 0.4                  |
-| Data      | 13/11/2026           |
-| Autor     | Samuel               |
-| Status    | Aguardando aprovação |
+| Campo     | Valor              |
+| --------- | ------------------ |
+| Projeto   | Root Book          |
+| Documento | Registro de Riscos |
+| Versão    | 1.0                |
+| Data      | 13/11/2026         |
+| Autor     | Samuel             |
+| Status    | Aprovado           |
 
 ## Histórico de revisões
 
@@ -17,6 +17,7 @@
 | 0.2    | 12/11/2026 | Samuel | Atualização do prazo de entrega do MVP 1 para 31/01/2027 e alinhamento com novo cronograma.          |
 | 0.3    | 12/11/2026 | Samuel | Ajuste da disponibilidade para 15 h semanais nas Fases 1 a 4 e 30 h semanais na construção do MVP 1. |
 | 0.4    | 13/11/2026 | Samuel | Revisão: palavras estrangeiras em itálico, conforme o padrão de documentos.                          |
+| 1.0    | 13/11/2026 | Samuel | Aprovado no *gate* da Fase 1.                                                                        |
 
 ---
 
