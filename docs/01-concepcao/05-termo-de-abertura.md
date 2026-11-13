@@ -4,8 +4,8 @@
 | --------- | ---------------------------- |
 | Projeto   | Root Book                    |
 | Documento | Termo de Abertura do Projeto |
-| Versão    | 0.3                          |
-| Data      | 12/11/2026                   |
+| Versão    | 0.4                          |
+| Data      | 13/11/2026                   |
 | Autor     | Samuel                       |
 | Status    | Aguardando aprovação         |
 
@@ -16,6 +16,7 @@
 | 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                      |
 | 0.2    | 12/11/2026 | Samuel | Ajuste das datas de marcos, cronograma e término previsto do MVP 1 para 31/01/2027.                  |
 | 0.3    | 12/11/2026 | Samuel | Ajuste da disponibilidade para 15 h semanais nas Fases 1 a 4 e 30 h semanais na construção do MVP 1. |
+| 0.4    | 13/11/2026 | Samuel | Revisão: palavras estrangeiras em itálico, conforme o padrão de documentos.                          |
 
 ---
 
@@ -42,14 +43,14 @@ O projeto também é o principal trabalho de portfólio do autor para candidatur
 
 ## 3. Objetivos
 
-| ID     | Objetivo                                                           | Indicador                                                                        | Prazo      |
-| ------ | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- | ---------- |
-| OBJ-01 | Concluir a documentação das Fases 1 a 4, com baseline de cada fase | Tags de baseline das quatro fases criadas no repositório                         | 26/12/2026 |
-| OBJ-02 | Publicar a aplicação mínima na instância de demonstração           | Link público respondendo, com deploy automático a partir da `main`               | 02/01/2027 |
-| OBJ-03 | Publicar o MVP 1 (1.0.0) com as capacidades *Must*                 | Todas as capacidades *Must* da SRS implementadas e aceitas                       | 31/01/2027 |
-| OBJ-04 | Cobrir os fluxos do MVP 1 com testes de ponta a ponta no CI        | Fluxos do MVP 1 executados no CI sem falhas na versão 1.0.0                      | 31/01/2027 |
-| OBJ-05 | Atender os requisitos de qualidade mensuráveis do MVP 1            | Cada requisito de qualidade mensurável verificado pelo método definido na Fase 2 | 31/01/2027 |
-| OBJ-06 | Publicar instruções de execução do projeto com Docker Compose      | Execução concluída em ambiente limpo seguindo apenas as instruções publicadas    | 31/01/2027 |
+| ID     | Objetivo                                                             | Indicador                                                                        | Prazo      |
+| ------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ---------- |
+| OBJ-01 | Concluir a documentação das Fases 1 a 4, com *baseline* de cada fase | *Tags* de *baseline* das quatro fases criadas no repositório                     | 26/12/2026 |
+| OBJ-02 | Publicar a aplicação mínima na instância de demonstração             | *Link* público respondendo, com *deploy* automático a partir da `main`           | 02/01/2027 |
+| OBJ-03 | Publicar o MVP 1 (1.0.0) com as capacidades *Must*                   | Todas as capacidades *Must* da SRS implementadas e aceitas                       | 31/01/2027 |
+| OBJ-04 | Cobrir os fluxos do MVP 1 com testes de ponta a ponta no CI          | Fluxos do MVP 1 executados no CI sem falhas na versão 1.0.0                      | 31/01/2027 |
+| OBJ-05 | Atender os requisitos de qualidade mensuráveis do MVP 1              | Cada requisito de qualidade mensurável verificado pelo método definido na Fase 2 | 31/01/2027 |
+| OBJ-06 | Publicar instruções de execução do projeto com Docker Compose        | Execução concluída em ambiente limpo seguindo apenas as instruções publicadas    | 31/01/2027 |
 
 ## 4. Requisitos de alto nível
 
@@ -102,16 +103,16 @@ As demais restrições estão na [Visão do Produto, seção 9](01-visao-do-prod
 
 ## 7. Marcos
 
-| ID   | Marco                                                                         | Data       |
-| ---- | ----------------------------------------------------------------------------- | ---------- |
-| M-01 | Início do projeto                                                             | 02/11/2026 |
-| M-02 | Gate da Fase 1: concepção aprovada                                            | 14/11/2026 |
-| M-03 | Gate da Fase 2: baseline de requisitos                                        | 28/11/2026 |
-| M-04 | Gate da Fase 3: baseline de arquitetura                                       | 12/12/2026 |
-| M-05 | Gate da Fase 4: documentação das Fases 1 a 4 concluída                        | 26/12/2026 |
-| M-06 | Primeiro deploy da instância de demonstração (release 0.1.0, fim da Sprint 1) | 02/01/2027 |
-| M-07 | MVP 1 (release 1.0.0)                                                         | 31/01/2027 |
-| M-08 | Retrospectiva do MVP 1                                                        | 31/01/2027 |
+| ID   | Marco                                                                             | Data       |
+| ---- | --------------------------------------------------------------------------------- | ---------- |
+| M-01 | Início do projeto                                                                 | 02/11/2026 |
+| M-02 | Gate da Fase 1: concepção aprovada                                                | 14/11/2026 |
+| M-03 | Gate da Fase 2: *baseline* de requisitos                                          | 28/11/2026 |
+| M-04 | Gate da Fase 3: *baseline* de arquitetura                                         | 12/12/2026 |
+| M-05 | Gate da Fase 4: documentação das Fases 1 a 4 concluída                            | 26/12/2026 |
+| M-06 | Primeiro *deploy* da instância de demonstração (*release* 0.1.0, fim da Sprint 1) | 02/01/2027 |
+| M-07 | MVP 1 (*release* 1.0.0)                                                           | 31/01/2027 |
+| M-08 | Retrospectiva do MVP 1                                                            | 31/01/2027 |
 
 ## 8. Riscos principais
 
@@ -119,7 +120,7 @@ O registro completo está no [registro de riscos](04-registro-de-riscos.md).
 
 | ID     | Risco                                                                        | Exposição |
 | ------ | ---------------------------------------------------------------------------- | --------- |
-| RSK-01 | Escopo do MVP 1 excede a capacidade das sprints                              | Alta (16) |
+| RSK-01 | Escopo do MVP 1 excede a capacidade das *sprints*                            | Alta (16) |
 | RSK-13 | Usuário acessa dados de outro usuário                                        | Alta (15) |
 | RSK-02 | Seleção no calendário e reserva de blocos consomem mais tempo que o estimado | Alta (12) |
 | RSK-03 | Atividades acadêmicas e feriados reduzem as horas disponíveis                | Alta (12) |
@@ -131,7 +132,7 @@ O registro completo está no [registro de riscos](04-registro-de-riscos.md).
 O MVP 1 é considerado bem-sucedido quando, até 31/01/2027:
 
 1. Um usuário consegue registrar eventos e tarefas e reservar um horário livre da semana para uma tarefa.
-2. A versão 1.0.0 está acessível pelo link público da demonstração, com a conta de exemplo.
+2. A versão 1.0.0 está acessível pelo *link* público da demonstração, com a conta de exemplo.
 3. Os objetivos OBJ-01 a OBJ-06 foram atingidos.
 4. A documentação de cada fase está publicada no repositório e reflete o que foi construído.
 
