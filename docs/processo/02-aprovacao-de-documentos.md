@@ -4,22 +4,23 @@
 | --------- | --------------------------------------- |
 | Projeto   | Root Book                               |
 | Documento | Procedimento de aprovação de documentos |
-| Versão    | 0.1                                     |
-| Data      | 03/11/2026                              |
+| Versão    | 0.2                                     |
+| Data      | 13/11/2026                              |
 | Autor     | Samuel                                  |
-| Status    | Rascunho                                |
+| Status    | Aguardando aprovação                    |
 
 ## Histórico de revisões
 
-| Versão | Data       | Autor  | Descrição       |
-| ------ | ---------- | ------ | --------------- |
-| 0.1    | 03/11/2026 | Samuel | Versão inicial. |
+| Versão | Data       | Autor  | Descrição                                                                                                                                                                            |
+| ------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0.1    | 03/11/2026 | Samuel | Versão inicial.                                                                                                                                                                      |
+| 0.2    | 13/11/2026 | Samuel | Revisão: *link* para as *tags* de *baseline* no plano do projeto, no lugar de `[A DEFINIR]`, e título do PR do *gate* no padrão Conventional Commits, exigido pelo plano do projeto. |
 
 ---
 
 ## 1. Propósito
 
-Este procedimento define os passos para revisar e aprovar os documentos de uma fase e vale para todas as fases. Nos exemplos, `N` é o número da fase, `<issue>` é o número da *issue* correspondente e `<tag>` é a *tag* da *baseline* definida no plano do projeto (*link* `[A DEFINIR]`).
+Este procedimento define os passos para revisar e aprovar os documentos de uma fase e vale para todas as fases. Nos exemplos, `N` é o número da fase, `<issue>` é o número da *issue* correspondente e `<tag>` é a *tag* da *baseline* definida no [plano do projeto](../01-concepcao/06-plano-do-projeto.md#113-baselines).
 
 ---
 
@@ -123,7 +124,7 @@ Para cada documento da fase:
   git push -u origin docs/<issue>-gate-fase-N
   ```
 
-- [ ] Abrir o *pull request* (PR) com o título "Gate da Fase N" e incluir na descrição `Closes #<issue>` e o *link* para o documento do *gate*.
+- [ ] Abrir o *pull request* (PR) com o título `docs: aprovar documentos no gate da fase N`, no padrão Conventional Commits, e incluir na descrição `Closes #<issue>` e o *link* para o documento do *gate*.
 - [ ] Revisar o PR e fazer o *merge* na `main`.
 - [ ] Criar e enviar a *tag* anotada da *baseline*:
 

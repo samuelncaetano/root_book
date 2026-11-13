@@ -4,16 +4,17 @@
 | --------- | -------------------- |
 | Projeto   | Root Book            |
 | Documento | Padrão de documentos |
-| Versão    | 0.1                  |
-| Data      | 03/11/2026           |
+| Versão    | 0.2                  |
+| Data      | 13/11/2026           |
 | Autor     | Samuel               |
-| Status    | Rascunho             |
+| Status    | Aguardando aprovação |
 
 ## Histórico de revisões
 
-| Versão | Data       | Autor  | Descrição       |
-| ------ | ---------- | ------ | --------------- |
-| 0.1    | 03/11/2026 | Samuel | Versão inicial. |
+| Versão | Data       | Autor  | Descrição                                                                                                          |
+| ------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 0.1    | 03/11/2026 | Samuel | Versão inicial.                                                                                                    |
+| 0.2    | 13/11/2026 | Samuel | Revisão: inclusão do prefixo A-xx (ajuste proposto), usado no estudo de viabilidade, na tabela de identificadores. |
 
 ---
 
@@ -101,6 +102,7 @@ Os valores de status e de versão seguem o [procedimento de aprovação de docum
 | M-xx    | Marco                            | Termo de abertura          |
 | OBJ-xx  | Objetivo do projeto              | Termo de abertura          |
 | R-xx    | Recomendação                     | Estudo de viabilidade      |
+| A-xx    | Ajuste proposto                  | Estudo de viabilidade      |
 
 - Os números têm dois dígitos e não são reaproveitados, nem quando o item é removido.
 - Todo identificador citado em um documento deve existir no documento de origem.

@@ -5,7 +5,7 @@ Software web de planejamento pessoal que reúne rotina fixa, tarefas e blocos de
 | Item              | Valor                                                |
 | ----------------- | ---------------------------------------------------- |
 | Status do projeto | Em concepção ([Fase 1](docs/01-concepcao/README.md)) |
-| Previsão do MVP 1 | 31/01/2027 (release 1.0.0)                           |
+| Previsão do MVP 1 | 31/01/2027 (*release* 1.0.0)                         |
 | Licença           | [MIT](LICENSE)                                       |
 
 ---
@@ -52,7 +52,7 @@ Avisos de uso da instância de demonstração:
 
 ## 4. Como executar
 
-O projeto poderá ser executado com Docker Compose, localmente ou em um servidor, com `DEMO_MODE=false`. As instruções de execução serão publicadas na release 1.0.0.
+O projeto poderá ser executado com Docker Compose, localmente ou em um servidor, com `DEMO_MODE=false`. As instruções de execução serão publicadas na *release* 1.0.0.
 
 ---
 
@@ -99,9 +99,9 @@ Procedimentos que valem para todas as fases:
 
 ## 7. Processo
 
-- **Ciclo de vida:** iterativo e incremental, organizado nas fases do RUP. As Fases 1 a 4 produzem a documentação; a construção ocorre em *sprints* de uma semana, com uma release por *sprint*. O detalhamento está no [plano do projeto](docs/01-concepcao/06-plano-do-projeto.md).
-- **Documentação versionada:** os documentos ficam no repositório, com histórico de revisões. Cada fase termina em um *gate* que registra a decisão e cria uma tag de *baseline*.
-- **Revisões:** cada documento é revisado com o checklist do [procedimento de aprovação](docs/processo/02-aprovacao-de-documentos.md), em dia diferente daquele em que foi produzido.
+- **Ciclo de vida:** iterativo e incremental, organizado nas fases do RUP. As Fases 1 a 4 produzem a documentação; a construção ocorre em *sprints* de uma semana, com uma *release* por *sprint*. O detalhamento está no [plano do projeto](docs/01-concepcao/06-plano-do-projeto.md).
+- **Documentação versionada:** os documentos ficam no repositório, com histórico de revisões. Cada fase termina em um *gate* que registra a decisão e cria uma *tag* de *baseline*.
+- **Revisões:** cada documento é revisado com o *checklist* do [procedimento de aprovação](docs/processo/02-aprovacao-de-documentos.md), em dia diferente daquele em que foi produzido.
 - **Limitação:** o projeto não tem participação de terceiros. O autor exerce todos os papéis, e os requisitos e a usabilidade são validados por análise de concorrentes, prototipação, avaliação heurística e uso do sistema pelo próprio autor, sem validação por usuários externos.
 
 ---
