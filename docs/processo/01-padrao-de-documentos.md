@@ -25,7 +25,7 @@ Este documento define a estrutura, o formato, os identificadores e as regras de 
 
 ## 2. Estrutura de pastas
 
-```
+```text
 docs/
 ├── 01-concepcao/
 ├── 02-requisitos/
@@ -43,11 +43,11 @@ docs/
 └── sprints/
 ```
 
-| Pasta                              | Conteúdo                                                                         |
-| ---------------------------------- | -------------------------------------------------------------------------------- |
-| `01-concepcao` a `09-encerramento` | Documentos de cada fase do ciclo de vida de desenvolvimento de software (SDLC)   |
-| `processo`                         | Procedimentos que valem para todas as fases                                      |
-| `sprints`                          | Planejamento, *review* e retrospectiva de cada *sprint*                          |
+| Pasta                              | Conteúdo                                                                       |
+| ---------------------------------- | ------------------------------------------------------------------------------ |
+| `01-concepcao` a `09-encerramento` | Documentos de cada fase do ciclo de vida de desenvolvimento de software (SDLC) |
+| `processo`                         | Procedimentos que valem para todas as fases                                    |
+| `sprints`                          | Planejamento, *review* e retrospectiva de cada *sprint*                        |
 
 ---
 
@@ -86,21 +86,21 @@ Os valores de status e de versão seguem o [procedimento de aprovação de docum
 
 ## 5. Identificadores
 
-| Prefixo | Uso                                | Documento de origem          |
-| ------- | ---------------------------------- | ---------------------------- |
-| CAP-xx  | Capacidade candidata a requisito   | Visão do produto             |
-| MOD-xx  | Módulo funcional                   | Visão do produto             |
-| RN-xx   | Regra de negócio                   | Visão do produto             |
-| RQ-xx   | Requisito de qualidade             | Visão do produto             |
-| RST-xx  | Restrição                          | Visão do produto             |
-| N-xx    | Necessidade de *stakeholder*       | Visão do produto             |
-| FL-xx   | Fluxo (cenário de uso)             | Visão do produto             |
-| Q-xx    | Questão em aberto                  | Registros da Fase 2          |
-| STK-xx  | *Stakeholder*                      | Registro de *stakeholders*   |
-| RSK-xx  | Risco                              | Registro de riscos           |
-| M-xx    | Marco                              | Termo de abertura            |
-| OBJ-xx  | Objetivo do projeto                | Termo de abertura            |
-| R-xx    | Recomendação                       | Estudo de viabilidade        |
+| Prefixo | Uso                              | Documento de origem        |
+| ------- | -------------------------------- | -------------------------- |
+| CAP-xx  | Capacidade candidata a requisito | Visão do produto           |
+| MOD-xx  | Módulo funcional                 | Visão do produto           |
+| RN-xx   | Regra de negócio                 | Visão do produto           |
+| RQ-xx   | Requisito de qualidade           | Visão do produto           |
+| RST-xx  | Restrição                        | Visão do produto           |
+| N-xx    | Necessidade de *stakeholder*     | Visão do produto           |
+| FL-xx   | Fluxo (cenário de uso)           | Visão do produto           |
+| Q-xx    | Questão em aberto                | Registros da Fase 2        |
+| STK-xx  | *Stakeholder*                    | Registro de *stakeholders* |
+| RSK-xx  | Risco                            | Registro de riscos         |
+| M-xx    | Marco                            | Termo de abertura          |
+| OBJ-xx  | Objetivo do projeto              | Termo de abertura          |
+| R-xx    | Recomendação                     | Estudo de viabilidade      |
 
 - Os números têm dois dígitos e não são reaproveitados, nem quando o item é removido.
 - Todo identificador citado em um documento deve existir no documento de origem.

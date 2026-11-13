@@ -25,12 +25,12 @@ Este procedimento define os passos para revisar e aprovar os documentos de uma f
 
 ## 2. Ciclo de vida de um documento
 
-| Status                 | Versão | Significado                                           |
-| ---------------------- | ------ | ----------------------------------------------------- |
-| Rascunho               | 0.1    | Escrito e ainda não revisado                          |
-| Em revisão             | 0.x    | Revisão pelo autor em andamento                       |
-| Aguardando aprovação   | 0.x    | Revisado e à espera do *gate* da fase                 |
-| Aprovado               | 1.0    | Aprovado no *gate* da fase                            |
+| Status                 | Versão | Significado                                               |
+| ---------------------- | ------ | --------------------------------------------------------- |
+| Rascunho               | 0.1    | Escrito e ainda não revisado                              |
+| Em revisão             | 0.x    | Revisão pelo autor em andamento                           |
+| Aguardando aprovação   | 0.x    | Revisado e à espera do *gate* da fase                     |
+| Aprovado               | 1.0    | Aprovado no *gate* da fase                                |
 | Congelado (*baseline*) | 1.0    | Aprovado e sem novas edições (somente a Visão do produto) |
 
 ---
@@ -145,8 +145,8 @@ Para cada documento da fase:
 
 ## 5. Alterações após a aprovação
 
-| Tipo de documento | Exemplos                                                         | Como alterar                                                                                                         |
-| ----------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Congelado         | Visão do produto                                                 | Sem alteração; as mudanças são registradas na especificação de requisitos de software (SRS)                          |
+| Tipo de documento | Exemplos                                                         | Como alterar                                                                                                               |
+| ----------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Congelado         | Visão do produto                                                 | Sem alteração; as mudanças são registradas na especificação de requisitos de software (SRS)                                |
 | *Baseline*        | SRS, ADRs aceitos, plano de *releases*                           | Somente por *issue* com o *label* `change-request`, conforme o processo de gestão de mudanças definido no plano do projeto |
-| Vivo              | Registro de riscos, registro de *stakeholders*, plano do projeto | Alteração direta, com incremento da versão (1.1, 1.2 e assim por diante) e linha no histórico, sem novo *gate*       |
+| Vivo              | Registro de riscos, registro de *stakeholders*, plano do projeto | Alteração direta, com incremento da versão (1.1, 1.2 e assim por diante) e linha no histórico, sem novo *gate*             |

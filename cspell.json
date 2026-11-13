@@ -5,12 +5,26 @@
     "**/.git/**"
   ],
   "words": [
+    "ANPD",
     "concepcao",
     "decisao",
+    "descricao",
     "devlog",
+    "dogfooding",
     "elicitacao",
+    "FCTE",
+    "gantt",
     "implantacao",
+    "LGPD",
+    "Mailpit",
+    "nestjs",
     "operacao",
-    "SDLC"
+    "PMBOK",
+    "pooler",
+    "reestimar",
+    "runbook",
+    "SDLC",
+    "timebox",
+    "visao"
   ]
 }
