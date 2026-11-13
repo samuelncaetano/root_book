@@ -4,17 +4,18 @@
 | --------- | ---------------- |
 | Projeto   | Root Book        |
 | Documento | Plano do Projeto |
-| Versão    | 0.2              |
+| Versão    | 0.3              |
 | Data      | 12/11/2026       |
 | Autor     | Samuel           |
 | Status    | Rascunho         |
 
 ## Histórico de revisões
 
-| Versão | Data       | Autor  | Descrição                                                                                               |
-| ------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------- |
-| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                         |
-| 0.2    | 12/11/2026 | Samuel | Ajuste das datas do cronograma com adição de uma semana a cada fase e entrega do MVP 1 até 31/01/2027.  |
+| Versão | Data       | Autor  | Descrição                                                                                              |
+| ------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------ |
+| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                        |
+| 0.2    | 12/11/2026 | Samuel | Ajuste das datas do cronograma com adição de uma semana a cada fase e entrega do MVP 1 até 31/01/2027. |
+| 0.3    | 12/11/2026 | Samuel | Ajuste da disponibilidade para 15 h semanais nas Fases 1 a 4 e 30 h semanais na construção do MVP 1.   |
 
 ---
 
@@ -96,7 +97,7 @@ Justificativa:
 
 ## 5. Orçamento de horas
 
-Disponibilidade de 30 horas semanais, de segunda a sábado (5 horas por dia). Os feriados estão incluídos como dias de trabalho; a análise está no [estudo de viabilidade](03-estudo-de-viabilidade.md#43-feriados).
+Disponibilidade de segunda a sábado: 15 horas semanais (2,5 horas por dia) nas Fases 1 a 4, em paralelo ao semestre letivo da UnB, e 30 horas semanais (5 horas por dia) nas sprints. Os feriados estão incluídos como dias de trabalho; a análise está no [estudo de viabilidade](03-estudo-de-viabilidade.md#43-feriados).
 
 | Período                 | Atividade                                    | Horas   |
 | ----------------------- | -------------------------------------------- | ------- |
