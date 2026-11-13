@@ -4,10 +4,10 @@
 | --------- | -------------------------- |
 | Projeto   | Root Book                  |
 | Documento | Registro de *Stakeholders* |
-| Versão    | 0.3                        |
+| Versão    | 1.0                        |
 | Data      | 13/11/2026                 |
 | Autor     | Samuel                     |
-| Status    | Aguardando aprovação       |
+| Status    | Aprovado                   |
 
 ## Histórico de revisões
 
@@ -16,6 +16,7 @@
 | 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                          |
 | 0.2    | 12/11/2026 | Samuel | Atualização do prazo de entrega do MVP 1 para 31/01/2027 na expectativa do patrocinador. |
 | 0.3    | 13/11/2026 | Samuel | Revisão: palavras estrangeiras em itálico, conforme o padrão de documentos.              |
+| 1.0    | 13/11/2026 | Samuel | Aprovado no *gate* da Fase 1.                                                            |
 
 ---
 

@@ -2,11 +2,11 @@
 
 Software web de planejamento pessoal que reúne rotina fixa, tarefas e blocos de tempo no mesmo calendário. Projeto de portfólio com o ciclo de desenvolvimento documentado.
 
-| Item              | Valor                                                |
-| ----------------- | ---------------------------------------------------- |
-| Status do projeto | Em concepção ([Fase 1](docs/01-concepcao/README.md)) |
-| Previsão do MVP 1 | 31/01/2027 (*release* 1.0.0)                         |
-| Licença           | [MIT](LICENSE)                                       |
+| Item              | Valor                                                                                                             |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Status do projeto | [Fase 1](docs/01-concepcao/README.md) concluída; [Fase 2](docs/02-requisitos) (Requisitos) a partir de 16/11/2026 |
+| Previsão do MVP 1 | 31/01/2027 (*release* 1.0.0)                                                                                      |
+| Licença           | [MIT](LICENSE)                                                                                                    |
 
 ---
 
@@ -76,17 +76,17 @@ O projeto poderá ser executado com Docker Compose, localmente ou em um servidor
 
 ## 6. Documentação
 
-| Fase                        | Pasta                                                | Status       |
-| --------------------------- | ---------------------------------------------------- | ------------ |
-| 1. Concepção                | [`docs/01-concepcao`](docs/01-concepcao/README.md)   | Em andamento |
-| 2. Requisitos               | [`docs/02-requisitos`](docs/02-requisitos)           | Pendente     |
-| 3. Arquitetura              | [`docs/03-arquitetura`](docs/03-arquitetura)         | Pendente     |
-| 4. Planejamento da execução | [`docs/04-planejamento`](docs/04-planejamento)       | Pendente     |
-| 5. Desenvolvimento          | [`docs/05-desenvolvimento`](docs/05-desenvolvimento) | Pendente     |
-| 6. Qualidade e testes       | [`docs/06-qualidade`](docs/06-qualidade)             | Pendente     |
-| 7. Implantação              | [`docs/07-implantacao`](docs/07-implantacao)         | Pendente     |
-| 8. Operação                 | [`docs/08-operacao`](docs/08-operacao)               | Pendente     |
-| 9. Encerramento             | [`docs/09-encerramento`](docs/09-encerramento)       | Pendente     |
+| Fase                        | Pasta                                                | Status    |
+| --------------------------- | ---------------------------------------------------- | --------- |
+| 1. Concepção                | [`docs/01-concepcao`](docs/01-concepcao/README.md)   | Concluída |
+| 2. Requisitos               | [`docs/02-requisitos`](docs/02-requisitos)           | Pendente  |
+| 3. Arquitetura              | [`docs/03-arquitetura`](docs/03-arquitetura)         | Pendente  |
+| 4. Planejamento da execução | [`docs/04-planejamento`](docs/04-planejamento)       | Pendente  |
+| 5. Desenvolvimento          | [`docs/05-desenvolvimento`](docs/05-desenvolvimento) | Pendente  |
+| 6. Qualidade e testes       | [`docs/06-qualidade`](docs/06-qualidade)             | Pendente  |
+| 7. Implantação              | [`docs/07-implantacao`](docs/07-implantacao)         | Pendente  |
+| 8. Operação                 | [`docs/08-operacao`](docs/08-operacao)               | Pendente  |
+| 9. Encerramento             | [`docs/09-encerramento`](docs/09-encerramento)       | Pendente  |
 
 Procedimentos que valem para todas as fases:
 

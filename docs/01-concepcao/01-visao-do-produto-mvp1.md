@@ -4,10 +4,10 @@
 | --------- | ------------------------ |
 | Projeto   | Root Book                |
 | Documento | Visão do Produto (MVP 1) |
-| Versão    | 0.3                      |
+| Versão    | 1.0                      |
 | Data      | 13/11/2026               |
 | Autor     | Samuel                   |
-| Status    | Aguardando aprovação     |
+| Status    | Congelado (*baseline*)   |
 
 ## Histórico de revisões
 
@@ -16,6 +16,7 @@
 | 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                                                                                           |
 | 0.2    | 12/11/2026 | Samuel | Atualização do prazo de entrega do MVP 1 para o final de janeiro de 2027.                                                                                                 |
 | 0.3    | 13/11/2026 | Samuel | Revisão: horários no formato de 24 horas, durações com espaço antes de "h" e palavras estrangeiras em itálico, conforme o padrão de documentos. Pronta para congelamento. |
+| 1.0    | 13/11/2026 | Samuel | Aprovado no *gate* da Fase 1.                                                                                                                                             |
 
 > **Status do conteúdo:** hipóteses não validadas.
 > Este documento é entrada para a elicitação de requisitos (Fase 2) e não tem valor de especificação. Os requisitos validados constarão da Especificação de Requisitos de Software (SRS). O documento será congelado como *baseline* no *gate* da Fase 1.
