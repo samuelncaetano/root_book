@@ -4,20 +4,21 @@
 | --------- | ------------------------ |
 | Projeto   | Root Book                |
 | Documento | Visão do Produto (MVP 1) |
-| Versão    | 0.2                      |
-| Data      | 12/11/2026               |
+| Versão    | 0.3                      |
+| Data      | 13/11/2026               |
 | Autor     | Samuel                   |
-| Status    | Rascunho                 |
+| Status    | Aguardando aprovação     |
 
 ## Histórico de revisões
 
-| Versão | Data       | Autor  | Descrição                                                                 |
-| ------ | ---------- | ------ | ------------------------------------------------------------------------- |
-| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                           |
-| 0.2    | 12/11/2026 | Samuel | Atualização do prazo de entrega do MVP 1 para o final de janeiro de 2027. |
+| Versão | Data       | Autor  | Descrição                                                                                                                                                                 |
+| ------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                                                                                           |
+| 0.2    | 12/11/2026 | Samuel | Atualização do prazo de entrega do MVP 1 para o final de janeiro de 2027.                                                                                                 |
+| 0.3    | 13/11/2026 | Samuel | Revisão: horários no formato de 24 horas, durações com espaço antes de "h" e palavras estrangeiras em itálico, conforme o padrão de documentos. Pronta para congelamento. |
 
 > **Status do conteúdo:** hipóteses não validadas.
-> Este documento é entrada para a elicitação de requisitos (Fase 2) e não tem valor de especificação. Os requisitos validados constarão da Especificação de Requisitos de Software (SRS). O documento será congelado como baseline no gate da Fase 1.
+> Este documento é entrada para a elicitação de requisitos (Fase 2) e não tem valor de especificação. Os requisitos validados constarão da Especificação de Requisitos de Software (SRS). O documento será congelado como *baseline* no *gate* da Fase 1.
 
 ---
 
@@ -29,7 +30,7 @@ Este documento registra o problema que o Root Book pretende resolver, o público
 
 ### 1.2 Escopo
 
-O documento trata do MVP 1, primeira versão utilizável do sistema, com entrega prevista para 31/01/2027. As capacidades que não forem atribuídas ao MVP 1 permanecem registradas como candidatas a releases seguintes.
+O documento trata do MVP 1, primeira versão utilizável do sistema, com entrega prevista para 31/01/2027. As capacidades que não forem atribuídas ao MVP 1 permanecem registradas como candidatas a *releases* seguintes.
 
 ### 1.3 Convenções
 
@@ -37,7 +38,7 @@ Os identificadores seguem o [padrão de documentos](../processo/01-padrao-de-doc
 
 ### 1.4 Referências
 
-- [Registro de stakeholders](02-registro-de-stakeholders.md)
+- [Registro de *stakeholders*](02-registro-de-stakeholders.md)
 - [Estudo de viabilidade](03-estudo-de-viabilidade.md)
 - [Registro de riscos](04-registro-de-riscos.md)
 - [Termo de abertura](05-termo-de-abertura.md)
@@ -80,13 +81,13 @@ O posicionamento será revisto após a análise de concorrentes da Fase 2.
 
 ---
 
-## 3. Stakeholders e usuários
+## 3. *Stakeholders* e usuários
 
-### 3.1 Resumo dos stakeholders
+### 3.1 Resumo dos *stakeholders*
 
-A identificação completa está no [registro de stakeholders](02-registro-de-stakeholders.md).
+A identificação completa está no [registro de *stakeholders*](02-registro-de-stakeholders.md).
 
-| ID     | Stakeholder                            |
+| ID     | *Stakeholder*                          |
 | ------ | -------------------------------------- |
 | STK-01 | Patrocinador                           |
 | STK-02 | Gerente de projeto                     |
@@ -99,10 +100,10 @@ A identificação completa está no [registro de stakeholders](02-registro-de-st
 
 ### 3.2 Usuários
 
-| Usuário                   | Descrição                                                                        | Stakeholder |
-| ------------------------- | -------------------------------------------------------------------------------- | ----------- |
-| Usuário final             | Pessoa que usa o sistema para planejar a própria rotina                          | STK-04      |
-| Visitante da demonstração | Pessoa que avalia o produto na instância de demonstração, com a conta de exemplo | STK-05      |
+| Usuário                   | Descrição                                                                        | *Stakeholder* |
+| ------------------------- | -------------------------------------------------------------------------------- | ------------- |
+| Usuário final             | Pessoa que usa o sistema para planejar a própria rotina                          | STK-04        |
+| Visitante da demonstração | Pessoa que avalia o produto na instância de demonstração, com a conta de exemplo | STK-05        |
 
 ### 3.3 Ambiente do usuário
 
@@ -114,7 +115,7 @@ A identificação completa está no [registro de stakeholders](02-registro-de-st
 
 As necessidades são hipóteses, a validar na Fase 2.
 
-| ID   | Necessidade                                                    | Stakeholder    | Capacidades     |
+| ID   | Necessidade                                                    | *Stakeholder*  | Capacidades     |
 | ---- | -------------------------------------------------------------- | -------------- | --------------- |
 | N-01 | Registrar compromissos fixos                                   | STK-04         | CAP-12 a CAP-19 |
 | N-02 | Registrar tarefas com data planejada, prazo e esforço estimado | STK-04         | CAP-20 a CAP-25 |
@@ -177,7 +178,7 @@ O plano de configuração e operação está no [plano do projeto](06-plano-do-p
 
 ### 4.4 Execução com Docker Compose
 
-O projeto pode ser executado por qualquer pessoa com Docker Compose, localmente ou em um servidor, com `DEMO_MODE=false`. As instruções de execução fazem parte da release 1.0.0.
+O projeto pode ser executado por qualquer pessoa com Docker Compose, localmente ou em um servidor, com `DEMO_MODE=false`. As instruções de execução fazem parte da *release* 1.0.0.
 
 ### 4.5 Licenciamento
 
@@ -400,7 +401,7 @@ O MVP 1 indicado forma uma fatia vertical do fluxo principal: criar a conta, org
 | RN-09 | Sobreposições e blocos depois do prazo são permitidos e sinalizados.                                                                                                                                                                                                                                           |
 | RN-10 | Ajustes em conjunto valem apenas para intervalos provisórios do modo de alocação; itens já criados são editados um por vez.                                                                                                                                                                                    |
 | RN-11 | Recorrência se aplica apenas a eventos.                                                                                                                                                                                                                                                                        |
-| RN-12 | A partir da release que incluir a lixeira, nada é apagado definitivamente sem passar por ela, exceto na exclusão da conta. Antes disso, toda exclusão é definitiva e exige confirmação; a confirmação da exclusão de um Espaço informa quantos eventos e tarefas serão excluídos com ele.                      |
+| RN-12 | A partir da *release* que incluir a lixeira, nada é apagado definitivamente sem passar por ela, exceto na exclusão da conta. Antes disso, toda exclusão é definitiva e exige confirmação; a confirmação da exclusão de um Espaço informa quantos eventos e tarefas serão excluídos com ele.                    |
 
 ### 7.1 Comportamento quando as datas passam
 
@@ -416,18 +417,18 @@ O MVP 1 indicado forma uma fatia vertical do fluxo principal: criar a conta, org
 
 ## 8. Fluxos
 
-| ID    | Fluxo                                | Descrição                                                                                                                                                        | Indicação |
-| ----- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| FL-01 | Montar a rotina fixa                 | Criar o Espaço "Faculdade", o Grupo "Cálculo II" e o evento recorrente "Aula" toda segunda e quarta, das 19h às 21h.                                             | Posterior |
-| FL-02 | Agendar um evento                    | Criar o evento "Consulta dermatologista", das 14h às 15h, no Espaço "Saúde".                                                                                     | MVP 1     |
-| FL-03 | Registrar evento de dia inteiro      | Criar o feriado "Proclamação da República" em 15/11.                                                                                                             | Posterior |
-| FL-04 | Anotar tarefa                        | Adicionar a tarefa "Comprar café" ao Espaço "Casa", sem data.                                                                                                    | MVP 1     |
-| FL-05 | Reservar tempo para uma tarefa       | Criar a tarefa "Estudar para P1", com duração estimada de 2h; selecionar um horário livre de 2h na semana, escolher "Reservar para tarefa…" e escolher a tarefa. | MVP 1     |
-| FL-06 | Planejar uma tarefa em vários blocos | Reservar um horário de 2h para "Estudar para P1", entrar no modo de alocação, adicionar outro intervalo de 2h em outro dia e confirmar.                          | Posterior |
-| FL-07 | Ajustar um bloco criado              | Arrastar um bloco já salvo para outro horário.                                                                                                                   | Posterior |
-| FL-08 | Ver o dia                            | Abrir a visão Hoje, concluir tarefas e replanejar as pendentes.                                                                                                  | Posterior |
-| FL-09 | Recuperar algo excluído              | Restaurar uma tarefa da lixeira.                                                                                                                                 | Posterior |
-| FL-10 | Avaliar a demonstração               | Abrir o link público, aguardar a inicialização do servidor se necessário, entrar com a conta de exemplo e executar o FL-05.                                      | MVP 1     |
+| ID    | Fluxo                                | Descrição                                                                                                                                                          | Indicação |
+| ----- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| FL-01 | Montar a rotina fixa                 | Criar o Espaço "Faculdade", o Grupo "Cálculo II" e o evento recorrente "Aula" toda segunda e quarta, das 19:00 às 21:00.                                           | Posterior |
+| FL-02 | Agendar um evento                    | Criar o evento "Consulta dermatologista", das 14:00 às 15:00, no Espaço "Saúde".                                                                                   | MVP 1     |
+| FL-03 | Registrar evento de dia inteiro      | Criar o feriado "Proclamação da República" em 15/11.                                                                                                               | Posterior |
+| FL-04 | Anotar tarefa                        | Adicionar a tarefa "Comprar café" ao Espaço "Casa", sem data.                                                                                                      | MVP 1     |
+| FL-05 | Reservar tempo para uma tarefa       | Criar a tarefa "Estudar para P1", com duração estimada de 2 h; selecionar um horário livre de 2 h na semana, escolher "Reservar para tarefa…" e escolher a tarefa. | MVP 1     |
+| FL-06 | Planejar uma tarefa em vários blocos | Reservar um horário de 2 h para "Estudar para P1", entrar no modo de alocação, adicionar outro intervalo de 2 h em outro dia e confirmar.                          | Posterior |
+| FL-07 | Ajustar um bloco criado              | Arrastar um bloco já salvo para outro horário.                                                                                                                     | Posterior |
+| FL-08 | Ver o dia                            | Abrir a visão Hoje, concluir tarefas e replanejar as pendentes.                                                                                                    | Posterior |
+| FL-09 | Recuperar algo excluído              | Restaurar uma tarefa da lixeira.                                                                                                                                   | Posterior |
+| FL-10 | Avaliar a demonstração               | Abrir o *link* público, aguardar a inicialização do servidor se necessário, entrar com a conta de exemplo e executar o FL-05.                                      | MVP 1     |
 
 ---
 
@@ -455,7 +456,7 @@ Os métodos de medição serão definidos na Fase 2.
 | RQ-01 | Plataforma     | Aplicação web responsiva, para navegador de computador e de celular.                                                                                                                                      |
 | RQ-02 | Desempenho     | A visão de calendário carrega em até 1 s para um usuário com 1 ano de eventos, com a instância ativa. O primeiro acesso após a hibernação da demonstração é tratado pelo aviso de inicialização (CAP-54). |
 | RQ-03 | Segurança      | Senhas armazenadas com hash forte; tráfego somente por HTTPS; sessões com expiração.                                                                                                                      |
-| RQ-04 | Privacidade    | Conformidade com a LGPD nas capacidades do MOD-03 incluídas em cada release.                                                                                                                              |
+| RQ-04 | Privacidade    | Conformidade com a LGPD nas capacidades do MOD-03 incluídas em cada *release*.                                                                                                                            |
 | RQ-05 | Acessibilidade | Navegação por teclado, inclusive na paleta de comandos, e contraste adequado, com meta de WCAG 2.1 nível AA.                                                                                              |
 | RQ-06 | Idioma         | Interface em português do Brasil, preparada para outros idiomas.                                                                                                                                          |
 | RQ-07 | Confiabilidade | Rotina de backup do banco disponível na execução com Docker Compose. Na demonstração não há backup: os dados são fictícios e recriados diariamente.                                                       |
@@ -465,7 +466,7 @@ Os métodos de medição serão definidos na Fase 2.
 
 ## 11. Fora do escopo
 
-Itens fora do produto nesta versão do documento. A inclusão em releases futuras será avaliada.
+Itens fora do produto nesta versão do documento. A inclusão em *releases* futuras será avaliada.
 
 - Clientes desktop e mobile nativos.
 - Uso compartilhado ou colaborativo, como calendários compartilhados e convites.
@@ -482,12 +483,12 @@ Itens fora do produto nesta versão do documento. A inclusão em releases futura
 
 ## 12. Roadmap
 
-| Release            | Escopo                                                                               | Previsão                                      |
-| ------------------ | ------------------------------------------------------------------------------------ | --------------------------------------------- |
-| MVP 1 (1.0.0)      | Capacidades indicadas como MVP 1 e MVP 1 (parcial), sujeitas à priorização da Fase 2 | 31/01/2027                                    |
-| Releases seguintes | Capacidades indicadas como Posterior                                                 | Ciclo do MVP 2, iniciado após a release 1.0.0 |
+| *Release*            | Escopo                                                                               | Previsão                                        |
+| -------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| MVP 1 (1.0.0)        | Capacidades indicadas como MVP 1 e MVP 1 (parcial), sujeitas à priorização da Fase 2 | 31/01/2027                                      |
+| *Releases* seguintes | Capacidades indicadas como Posterior                                                 | Ciclo do MVP 2, iniciado após a *release* 1.0.0 |
 
-A distribuição das releases intermediárias do MVP 1 está no [plano do projeto](06-plano-do-projeto.md#7-plano-de-releases).
+A distribuição das *releases* intermediárias do MVP 1 está no [plano do projeto](06-plano-do-projeto.md#7-plano-de-releases).
 
 ---
 
