@@ -4,17 +4,18 @@
 | --------- | --------------------- |
 | Projeto   | Root Book             |
 | Documento | Gate da Fase 1        |
-| Versão    | 0.2                   |
+| Versão    | 0.3                   |
 | Data      | 12/11/2026            |
 | Autor     | Samuel                |
 | Status    | Pendente de aprovação |
 
 ## Histórico de revisões
 
-| Versão | Data       | Autor  | Descrição                                                          |
-| ------ | ---------- | ------ | ------------------------------------------------------------------ |
-| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                    |
-| 0.2    | 12/11/2026 | Samuel | Atualização da data prevista do gate para 14/11/2026 (marco M-02). |
+| Versão | Data       | Autor  | Descrição                                                                                                 |
+| ------ | ---------- | ------ | --------------------------------------------------------------------------------------------------------- |
+| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                           |
+| 0.2    | 12/11/2026 | Samuel | Atualização da data prevista do gate para 14/11/2026 (marco M-02).                                        |
+| 0.3    | 12/11/2026 | Samuel | Correção do status da Visão do Produto para "Congelado (baseline)", conforme o procedimento de aprovação. |
 
 ---
 
@@ -67,7 +68,7 @@ Pendências que não impedem a saída da fase, com prazo para resolução.
 
 Os passos detalhados estão no [procedimento de aprovação de documentos](../processo/02-aprovacao-de-documentos.md#4-parte-b-gate-da-fase).
 
-1. Passar os documentos da fase para a versão 1.0, com status "Aprovado"; a Visão do Produto recebe o status "Congelada (baseline)".
+1. Passar os documentos da fase para a versão 1.0, com status "Aprovado"; a Visão do Produto recebe o status "Congelado (baseline)".
 2. Registrar a decisão e a data no termo de abertura.
 3. Atualizar o [README da pasta](README.md) e o README da raiz, com a Fase 1 como "Concluída".
 4. Fazer o merge do PR do gate e criar a tag `concepcao-v1.0`.
