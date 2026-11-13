@@ -4,17 +4,18 @@
 | --------- | ---------------------------- |
 | Projeto   | Root Book                    |
 | Documento | Termo de Abertura do Projeto |
-| Versão    | 0.2                          |
+| Versão    | 0.3                          |
 | Data      | 12/11/2026                   |
 | Autor     | Samuel                       |
 | Status    | Aguardando aprovação         |
 
 ## Histórico de revisões
 
-| Versão | Data       | Autor  | Descrição                                                                           |
-| ------ | ---------- | ------ | ----------------------------------------------------------------------------------- |
-| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                     |
-| 0.2    | 12/11/2026 | Samuel | Ajuste das datas de marcos, cronograma e término previsto do MVP 1 para 31/01/2027. |
+| Versão | Data       | Autor  | Descrição                                                                                            |
+| ------ | ---------- | ------ | ---------------------------------------------------------------------------------------------------- |
+| 0.1    | 12/11/2026 | Samuel | Versão inicial.                                                                                      |
+| 0.2    | 12/11/2026 | Samuel | Ajuste das datas de marcos, cronograma e término previsto do MVP 1 para 31/01/2027.                  |
+| 0.3    | 12/11/2026 | Samuel | Ajuste da disponibilidade para 15 h semanais nas Fases 1 a 4 e 30 h semanais na construção do MVP 1. |
 
 ---
 
@@ -84,7 +85,7 @@ As capacidades indicadas como Posterior e os itens listados na [Visão do Produt
 
 ### 6.1 Premissas
 
-- O autor dispõe de 30 horas semanais, de segunda a sábado.
+- O autor dispõe, de segunda a sábado, de 15 horas semanais nas Fases 1 a 4 e de 30 horas semanais na construção do MVP 1.
 - O período de 18/01 a 31/01/2027 é usado como Sprint 4 e estabilização, conforme o estudo de viabilidade.
 - Os planos gratuitos dos fornecedores permanecem disponíveis durante o projeto.
 - O autor tem domínio da stack definida.
